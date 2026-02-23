@@ -1,6 +1,6 @@
-# KDP2 (Kotlin Droid Project 2)
+# KDP2 (Kotlin Droid Project 2) 💬
 
-> Мессенджер с локальным хранением сообщений на Kotlin + Jetpack Compose
+> A local messenger built with Kotlin & Jetpack Compose
 
 ![Android](https://img.shields.io/badge/Platform-Android-green.svg)
 ![Kotlin](https://img.shields.io/badge/Language-Kotlin-blue.svg)
@@ -9,40 +9,40 @@
 
 ---
 
-## 📱 О проекте
+## 📱 About
 
-**Fomalhaut Messenger** — это учебный проект по разработке Android-приложений на Kotlin. 
-Второй проект в экосистеме Fomalhaut после [Fomalhaut Bin](ссылка-на-KDP1).
+**Fomalhaut Messenger** is an educational Android project built with Kotlin. 
+It's the second project in the Fomalhaut ecosystem, following [Fomalhaut Bin](link-to-KDP1).
 
-Приложение позволяет создавать чаты и обмениваться текстовыми сообщениями с локальным сохранением в базе данных Room.
-
----
-
-## ✨ Фичи
-
-- ✅ Создание и удаление чатов
-- ✅ Отправка и получение текстовых сообщений
-- ✅ Локальное хранение (Room Database)
-- ✅ Отображение последнего сообщения в списке чатов
-- ✅ Автоматическая прокрутка к новому сообщению
-- ✅ Поддержка тёмной и светлой темы
-- ✅ Чистая архитектура (MVVM + Repository)
-- ✅ Реактивный UI (StateFlow + Compose)
+The app allows you to create chats and exchange text messages with local storage using Room Database.
 
 ---
 
-## 🛠 Технологии
+## ✨ Features
 
-| Категория | Технологии |
-|-----------|------------|
-| **Язык** | Kotlin 100% |
+- ✅ Create and delete chats
+- ✅ Send and receive text messages
+- ✅ Local storage with Room Database
+- ✅ Display last message in chat list
+- ✅ Auto-scroll to newest message
+- ✅ Light & Dark theme support
+- ✅ Clean Architecture (MVVM + Repository)
+- ✅ Reactive UI (StateFlow + Compose)
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Language** | 100% Kotlin |
 | **UI** | Jetpack Compose, Material 3 |
-| **Архитектура** | MVVM, Repository Pattern |
-| **База данных** | Room |
-| **Асинхронность** | Coroutines, StateFlow, Flow |
-| **Навигация** | Navigation Compose |
+| **Architecture** | MVVM, Repository Pattern |
+| **Database** | Room |
+| **Async** | Coroutines, StateFlow, Flow |
+| **Navigation** | Navigation Compose |
 | **DI** | ViewModel Factory |
-| **Жизненный цикл** | Lifecycle, ViewModel |
+| **Lifecycle** | Lifecycle, ViewModel |
 
 ---
 
