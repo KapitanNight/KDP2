@@ -1,4 +1,4 @@
-# Fomalhaut Messenger (KDP2) 💬
+# KDP2 (Kotlin Droid Project 2)
 
 > Мессенджер с локальным хранением сообщений на Kotlin + Jetpack Compose
 
